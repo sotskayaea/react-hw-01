@@ -1,0 +1,36 @@
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #FA6C6C;
+    padding: 5px;
+
+}
+
+.status__online{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 80px;
+    background-color: rgb(34, 237, 34);
+}
+.status__offline{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 80px;
+    background-color: rgb(252, 57, 57);  
+}
+
+.avatar{
+    width: 48px;
+}
+
+.name{
+    width: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.14;
+    color: #FA6C6C;
+}
